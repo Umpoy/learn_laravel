@@ -1,2 +1,8 @@
-<h1>This is the about page</h1>
+@extends('index')
+
+@section('content')
+@component('partials.hero')
+    About Page
+@endcomponent
 @include('partials.nav')
+@endsection

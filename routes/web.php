@@ -12,12 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('pages.home');
 });
 
 Route::get('/blog', function () {
     return view('pages.blog');
-})->name('blog');
+})->name('blog');;
 
 Route::get('/about', function () {
     return view('pages.about');

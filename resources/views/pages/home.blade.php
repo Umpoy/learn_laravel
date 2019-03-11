@@ -2,7 +2,7 @@
 
 @section('content')
 @component('partials.hero')
-    Contacts Page
+    Home Page
 @endcomponent
 @include('partials.nav')
 @endsection

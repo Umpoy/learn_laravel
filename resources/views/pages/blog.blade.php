@@ -1,2 +1,8 @@
-<h1>This is the blog page</h1>
+@extends('index')
+
+@section('content')
+@component('partials.hero')
+    Blog Page
+@endcomponent
 @include('partials.nav')
+@endsection
