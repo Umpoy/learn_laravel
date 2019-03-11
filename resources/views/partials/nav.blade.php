@@ -1,5 +1,5 @@
 <div class="links">
-    <a href="/blog">Blog</a>
-    <a href="/about">About</a>
-    <a href="/contacts">Contacts</a>
+    <a href="{{ route('blog') }}">Blog</a>
+    <a href="{{ route('about-us') }}">About</a>
+    <a href="{{ route('contacts') }}">Contacts</a>
 </div>
